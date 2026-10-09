@@ -21,7 +21,6 @@ Prueba de Concepto (PoC) para la optimización de residuos y recortes de materia
 - **Cliente:** `supabase-py`
 
 
-
 ## ⚙️ Configuración y Ejecución
 
 1. Instalar dependencias:
