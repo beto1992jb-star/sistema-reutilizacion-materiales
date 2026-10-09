@@ -31,11 +31,11 @@ CREATE TABLE IF NOT EXISTS necesidades_material (
 
 -- 4. Datos de prueba
 INSERT INTO plantas (nombre, ubicacion) VALUES 
-('Planta A - Metalúrgica', 'Zona Norte'),
-('Planta B - Piezas Pequeñas', 'Zona Sur');
+('Planta A - MetalÃºrgica', 'Zona Norte'),
+('Planta B - Piezas PequeÃ±as', 'Zona Sur');
 
 INSERT INTO inventario_scrap (planta_origen_id, tipo_material, calibre, largo_mm, ancho_mm, cantidad, estado) VALUES
-(1, 'Lámina de acero', '2mm', 500.0, 300.0, 10, 'Disponible');
+(1, 'LÃ¡mina de acero', '2mm', 500.0, 300.0, 10, 'Disponible');
 
 INSERT INTO necesidades_material (planta_solicitante_id, tipo_material, calibre, largo_max_mm, ancho_max_mm, cantidad, estado) VALUES
-(2, 'Lámina de acero', '2mm', 400.0, 250.0, 5, 'Pendiente');
+(2, 'LÃ¡mina de acero', '2mm', 400.0, 250.0, 5, 'Pendiente');
